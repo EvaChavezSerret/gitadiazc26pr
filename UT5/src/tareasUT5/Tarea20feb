@@ -1,0 +1,24 @@
+Números racionales
+	Clase Racional
+	
+Constructores:
+	Por defecto 1.
+	Con los valores que le pase por parámetro.
+
+Métodos:
+	get/set
+	static Racional.sumar(Racional a, Racional b)
+	minumero.sumar(Racional otro)
+	restar
+	dividir
+	multiplicar
+	toString() "1/2"
+	toFloatString() "0.5"
+	
+Método privado:
+	reducir()
+	
+Clsae para probarlo: leer dos números racionales, mostrar un menú para (sumar/restar/multiplicar/dividir) 
+hacer la operación y mostrarla.
+
+LA CLASE Real.java ES UN EJEMPLO DE COMO SE HARÍA ESTE EJERCICIO CON NÚMEROS REALES
