@@ -3,7 +3,7 @@ package TurisBus;
 public class Parada {
 	
 	private String nombreP;
-	private int horaBP; //Las medias horas son 0.5
+	private int horaBP;
 	private int horaSP;
 
 	public Parada() {

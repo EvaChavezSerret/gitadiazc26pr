@@ -9,8 +9,8 @@ public class Viaje {
 	private int horaSV; //No hay medias horas
 	private int horaLV;
 	private List<Parada> listaParadas;
-	public static final double PRECIO_H_V = 50D; //La D es para que coja un número sin decimales como Double. 
-	public static final double PRECIO_P = 10D;
+	public static final double PRECIO_H_V = 50;
+	public static final double PRECIO_P = 10;
 	
 
 	public Viaje() {

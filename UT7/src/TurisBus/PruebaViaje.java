@@ -11,9 +11,11 @@ public class PruebaViaje {
 		Parada p2 = new ParadaActividad("Aranjuez",18,19,"Visita el Museo de Aranjuez",20);
 		paradas.add(p1);
 		paradas.add(p2);
-		Viaje trenTM = new Viaje("TREN01","TREN TOLEDO MADRID",15,20, paradas);
+		Viaje busTM = new Viaje("BUS1","BUS TOLEDO MADRID",15,20, paradas);
 		
-		System.out.println("Coste del viaje = " + trenTM.coste());
+		System.out.println(busTM.getNombreV());
+		//Las horas las imprime porque lo he puesto en el método coste, en viaje.
+		System.out.println("Coste del viaje = " + busTM.coste());
 
 	}
 
